@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1rem;
+  @media (min-width: 64em) {
+    height: 85px;
+  }
+  @media (min-width: 90em) {
+    padding: 1.25rem 6.25rem;
+  }
+  @media (min-width: 120em) {
+    padding: 1.25rem 17.5rem;
+  }
+
+  &__content {
+    display: flex;
+    @include toRem(gap, 16);
+  }
+  &__burger-btn {
+    @include btn;
+    @media (min-width: 48em) {
+      display: none;
+    }
+  }
+  &__logo {
+    font-family: var(--font-IntegralCF);
+    @include toRem(font-size, 25.2);
+    margin-top: -0.5rem;
+    @media (min-width: 48em) {
+      @include toRem(font-size, 32);
+    }
+    @media (min-width: 64em) {
+      margin-top: -0.1rem;
+    }
+  }
+  &__container {
+    position: absolute;
+    @include toRem(margin-left, 200);
+  }
+  &__titles-list {
+    display: none;
+    @media (min-width: 48em) {
+      display: flex;
+      @include toRem(gap, 24);
+      @include toRem(margin-top, 6);
+    }
+    @media (min-width: 64em) {
+      @include toRem(margin-top, 12);
+    }
+    li {
+      font-family: var(--font-SatoshiRegular);
+      cursor: pointer;
+      transition: color 0.3s ease;
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+  &__search-form {
+    display: none;
+    @media (min-width: 64em) {
+      display: block;
+      position: absolute;
+      right: 8rem;
+    }
+    @media (min-width: 90em) {
+      right: 13.25rem;
+    }
+    @media (min-width: 120em) {
+      right: 14.7rem;
+    }
+    @media (min-width: 120em) {
+      right: 25.95rem;
+    }
+  }
+  &__search-icon {
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+  }
+  &__search-field {
+    @include input;
+    width: 325px;
+    height: 48px;
+    background-color: vars.$gray;
+    padding: 0.75rem 1rem 0.75rem 3.25rem;
+    border-radius: 62px;
+    font-family: var(--font-SatoshiRegular);
+    @include toRem(font-size, 16);
+    color: #000;
+    @media (min-width: 90em) {
+      width: 557px;
+    }
+    @media (min-width: 120em) {
+      width: 577px;
+    }
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  &__body {
+    display: flex;
+    @include toRem(gap, 12);
+    @media (min-width: 48em) {
+      @include toRem(gap, 14);
+    }
+  }
+  &__search-btn {
+    @include btn;
+    @media (min-width: 64em) {
+      display: none;
+    }
+  }
+  &__wishlist-btn {
+    @include btn;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &__cart-btn {
+    @include btn;
+  }
+  &__profile-btn {
+    @include btn;
+  }
+}

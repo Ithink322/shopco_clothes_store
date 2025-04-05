@@ -1,0 +1,56 @@
+{
+  "promo bar title 1": "Regístrate hoy y disfruta de un 10% de descuento en tu primer pedido.",
+  "promo bar title 2": "Oferta por tiempo limitado: ¡Obtén un 15% de descuento en tu primera compra al unirte ahora!",
+  "promo bar title 3": "Hazte miembro y ahorra un 20% en tu primer pedido al instante. ¡No te lo pierdas!",
+  "promo bar title 4": "¡Oferta exclusiva! Regístrate y reclama un 25% de descuento en tu primer pedido hoy mismo.",
+  "promo bar title 5": "Únete ahora y desbloquea un enorme 30% de descuento en tu primera compra.",
+  "Sign Up Now": "Registrarse ahora",
+  "search": {
+    "placeholder": "Buscar productos..."
+  },
+  "Home": {
+    "Home": "Inicio",
+    "Shop": "Tienda",
+    "On Sale": "En Oferta",
+    "New Arrivals": "Novedades",
+    "banner title": "ENCUENTRA ROPA QUE SE ADAPTE A TU ESTILO",
+    "banner desc": "Explora nuestra variada gama de prendas meticulosamente diseñadas para resaltar tu individualidad y adaptarse a tu estilo.",
+    "shop now": "Comprar ahora",
+    "International Brands": "Marcas internacionales",
+    "High-Quality Products": "Productos de alta calidad",
+    "Happy Customers": "Clientes felices",
+
+    "Browse title": "EXPLORA POR ESTILO DE VESTIDO",
+    "Category 1": "Casual",
+    "Category 2": "Formal",
+    "Category 3": "Fiesta",
+    "Category 4": "Gimnasio",
+    "Newsletter title": "MANTENTE AL DÍA SOBRE NUESTRAS ÚLTIMAS OFERTAS",
+    "Newsletter placeholder": "ingrese email",
+    "Subscribe to Newsletter": "Suscribirse al boletín"
+  },
+  "Footer": {
+    "footer desc": "Tenemos ropa que se adapta a tu estilo y que te enorgullece llevar. De mujeres a hombres.",
+    "COMPANY": "EMPRESA",
+    "About": "Acerca de",
+    "Features": "Características",
+    "Works": "Cómo funciona",
+    "Career": "Carrera",
+    "HELP": "AYUDA",
+    "Customer support": "Atención al cliente",
+    "Delivery details": "Detalles de entrega",
+    "Terms & Conditions": "Términos y condiciones",
+    "Privacy Policy": "Política de privacidad",
+    "FAQ": "Preguntas frecuentes",
+    "Account": "Cuenta",
+    "Manage Deliveries": "Gestionar entregas",
+    "Orders": "Pedidos",
+    "Payments": "Pagos",
+    "RESOURCES": "RECURSOS",
+    "Free eBooks": "Libros electrónicos gratis",
+    "Development Tutorial": "Tutorial de desarrollo",
+    "How to - Blog": "Cómo hacerlo - Blog",
+    "Youtube Playlist": "Lista de reproducción de Youtube",
+    "Copyright": "Shop.co © 2000-2025, Todos los derechos reservados"
+  }
+}

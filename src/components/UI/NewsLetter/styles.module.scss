@@ -1,0 +1,89 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem 1.75rem;
+  border-radius: 20px;
+  background-color: vars.$bl;
+  left: 1rem;
+  right: 1rem;
+  margin-top: 3.125rem;
+  @media (min-width: 64em) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.25rem 4rem;
+    margin-top: 6.125rem;
+  }
+  @media (min-width: 90em) {
+    left: 6.25rem;
+    right: 6.25rem;
+  }
+  @media (min-width: 120em) {
+    left: 17.5rem;
+    right: 17.5rem;
+  }
+  &__title {
+    font-family: var(--font-IntegralCF);
+    @include toRem(font-size, 32);
+    line-height: 35px;
+    color: vars.$wh;
+    @media (min-width: 26.875em) {
+      max-width: 350px;
+    }
+    @media (min-width: 64em) {
+      @include toRem(font-size, 40);
+      max-width: 551px;
+      line-height: 45px;
+    }
+    :global(.ru) & {
+      line-height: 54px;
+      overflow-wrap: break-word;
+      @media (min-width: 26.875em) {
+        max-width: 380px;
+      }
+      @media (min-width: 64em) {
+        line-height: 72px;
+        max-width: 480px;
+      }
+      @media (min-width: 90em) {
+        max-width: 700px;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    @include toRem(gap, 12);
+    @media (min-width: 64em) {
+      width: 350px;
+    }
+  }
+  &__email-icon {
+    position: absolute;
+    margin: 0.75rem 0 0 1rem;
+  }
+  &__field {
+    @include input;
+    background-color: vars.$wh;
+    border-radius: 62px;
+    padding: 0.719rem 1.5rem 0.719rem 3rem;
+    width: 100%;
+    &::placeholder {
+      font-family: var(--font-SatoshiRegular);
+      font-size: 0.875rem;
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  &__btn {
+    @include btn;
+    background-color: vars.$wh;
+    border-radius: 62px;
+    padding: 0.719rem 0;
+    width: 100%;
+    font-family: var(--font-SatoshiMedium);
+    font-size: 0.875rem;
+    color: vars.$bl;
+  }
+}

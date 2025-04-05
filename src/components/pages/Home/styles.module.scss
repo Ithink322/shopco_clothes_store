@@ -1,0 +1,223 @@
+.banner {
+  background-color: vars.$light-gray;
+  padding: 2.5rem 1rem 0rem;
+  @media (min-width: 90em) {
+    padding: 2.5rem 6.25rem 0rem;
+  }
+  @media (min-width: 120em) {
+    padding: 2.5rem 17.5rem 0rem;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    @include toRem(gap, 24);
+    @media (min-width: 48em) {
+      @include toRem(gap, 32);
+      width: max-content;
+    }
+  }
+  &__title {
+    font-family: var(--font-IntegralCF);
+    @include toRem(font-size, 36);
+    line-height: 34px;
+    color: vars.$bl;
+    @media (min-width: 48em) {
+      @include toRem(font-size, 64);
+      line-height: 64px;
+      width: 577px;
+    }
+  }
+  :global(.ru) &__title {
+    line-height: 54px;
+
+    @media (min-width: 48em) {
+      line-height: 92px;
+    }
+    @media (min-width: 64em) {
+      width: 1000px;
+    }
+  }
+  &__desc {
+    font-family: var(--font-SatoshiRegular);
+    @include toRem(font-size, 14);
+    color: rgba(0, 0, 0, 60%);
+    margin-top: -0.25rem;
+    @media (min-width: 48em) {
+      @include toRem(font-size, 16);
+      margin-top: 0rem;
+      width: 545px;
+    }
+  }
+  &__shop-btn {
+    @include btn;
+    border-radius: 62px;
+    background-color: vars.$bl;
+    width: 100%;
+    padding: 0.938rem 0;
+    font-family: var(--font-SatoshiMedium);
+    color: vars.$wh;
+    @media (min-width: 48em) {
+      width: 210px;
+    }
+  }
+  &__achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include toRem(gap, 64);
+    @include toRem(margin-top, 20);
+    @media (min-width: 48em) {
+      justify-content: left;
+      @include toRem(margin-top, 48);
+      width: max-content;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 117px;
+    @media (min-width: 48em) {
+      max-width: 215px;
+    }
+    &--mg-top {
+      margin-top: -3.25rem;
+      @media (min-width: 30.25em) {
+        margin-top: 0;
+      }
+    }
+    :global(.ru) &--mg-top {
+      @media (min-width: 30.25em) {
+        margin-top: -3.25rem;
+      }
+      @media (min-width: 31.625em) {
+        margin-top: 0rem;
+      }
+    }
+    :global(.es) &--mg-top {
+      @media (min-width: 30.25em) {
+        margin-top: -3.25rem;
+      }
+      @media (min-width: 31.063em) {
+        margin-top: 0rem;
+      }
+    }
+  }
+  &__text {
+    font-family: var(--font-SatoshiBold);
+    @include toRem(font-size, 24);
+    color: vars.$bl;
+    @media (min-width: 48em) {
+      @include toRem(font-size, 40);
+    }
+  }
+  &__subtext {
+    font-family: var(--font-SatoshiRegular);
+    @include toRem(font-size, 12);
+    color: rgba(0, 0, 0, 60%);
+    @media (min-width: 48em) {
+      @include toRem(font-size, 16);
+    }
+  }
+  &__hero {
+    display: block;
+    width: 300px;
+    height: 390px;
+    margin: 0 auto;
+    @media (min-width: 24.375em) {
+      width: 390px;
+      transform: translateX(-1rem);
+    }
+    @media (min-width: 26.25em) {
+      transform: translateX(0);
+    }
+    @media (min-width: 64em) {
+      width: 400px;
+      height: 526px;
+      margin: 0;
+      margin-left: auto;
+      margin-top: -25.65rem;
+    }
+    @media (min-width: 90em) {
+      width: 700px;
+      height: 626px;
+      margin: 0;
+      margin-left: auto;
+      margin-right: -67px;
+      margin-top: -31.9rem;
+    }
+  }
+  :global(.ru) &__hero {
+    @media (min-width: 64em) {
+      width: 300px;
+      height: 426px;
+      margin-top: -19.4rem;
+    }
+    @media (min-width: 75em) {
+      width: 470px;
+    }
+    @media (min-width: 90em) {
+      width: 610px;
+      height: 576px;
+      margin-top: -19.5rem;
+    }
+  }
+  :global(.es) &__hero {
+    @media (min-width: 64em) {
+      width: 355px;
+      height: 470px;
+      margin-top: -22.775rem;
+    }
+    @media (min-width: 75em) {
+      width: 530px;
+      height: 590px;
+      margin-top: -30.275rem;
+    }
+    @media (min-width: 90em) {
+      width: 670px;
+      height: 616px;
+      margin-top: -31.275rem;
+    }
+  }
+}
+.brands {
+  @include flex-centered;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 1.375rem;
+  background-color: vars.$bl;
+  padding: 2.438rem 1rem;
+  @media (min-width: 64em) {
+    @include toRem(gap, 106);
+  }
+  @media (min-width: 90em) {
+    &__versace-logo {
+      width: 166px;
+      height: 33px;
+    }
+    &__zara-logo {
+      width: 91px;
+      height: 38px;
+    }
+    &__gucci-logo {
+      width: 156px;
+      height: 36px;
+    }
+    &__prada-logo {
+      width: 194px;
+      height: 32px;
+    }
+    &__klein-logo {
+      width: 206px;
+      height: 33px;
+    }
+  }
+}
+.container {
+  padding: 3.125rem 1rem 11.5rem;
+  @media (min-width: 90em) {
+    padding: 3.125rem 6.25rem 11.5rem;
+  }
+  @media (min-width: 120em) {
+    padding: 3.125rem 17.5rem 11.5rem;
+  }
+}

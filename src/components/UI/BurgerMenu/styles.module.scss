@@ -1,0 +1,38 @@
+.burgerBg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+.burger {
+  z-index: 3;
+  background-color: #212529;
+  position: fixed;
+  color: #dee2e6;
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 100vh;
+  padding: 1.25rem;
+  &__logo {
+    font-family: var(--font-IntegralCF);
+    @include toRem(font-size, 25.2);
+    color: vars.$wh;
+  }
+  &__titles-list {
+    display: flex;
+    flex-direction: column;
+    @include toRem(gap, 14);
+    @include toRem(margin-top, 21);
+  }
+  &__close-btn {
+    @include btn;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "promo bar title 1": "Sign up today and enjoy 10% off your first order!",
+  "promo bar title 2": "Limited-time offer: Get 15% off your first purchase when you join now!",
+  "promo bar title 3": "Become a member and instantly save 20% on your first order. Don't miss out!",
+  "promo bar title 4": "Exclusive deal! Sign up and claim 25% off your first order today.",
+  "promo bar title 5": "Join us now and unlock a huge 30% discount on your first purchase!",
+  "Sign Up Now": "Sign Up Now",
+  "search": {
+    "placeholder": "Search for products..."
+  },
+  "Home": {
+    "Home": "Home",
+    "Shop": "Shop",
+    "On Sale": "On Sale",
+    "New Arrivals": "New Arrivals",
+    "banner title": "FIND CLOTHES THAT MATCHES YOUR STYLE",
+    "banner desc": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+    "shop now": "Shop Now",
+    "International Brands": "International Brands",
+    "High-Quality Products": "High-Quality Products",
+    "Happy Customers": "Happy Customers",
+
+    "Browse title": "BROWSE BY dress STYLE",
+    "Category 1": "Casual",
+    "Category 2": "Formal",
+    "Category 3": "Party",
+    "Category 4": "Gym",
+    "Newsletter title": "STAY UPTO DATE ABOUT OUR LATEST OFFERS",
+    "Newsletter placeholder": "Enter your email address",
+    "Subscribe to Newsletter": "Subscribe to Newsletter"
+  },
+  "Footer": {
+    "footer desc": "We have clothes that suits your style and which you’re proud to wear. From women to men.",
+    "COMPANY": "COMPANY",
+    "About": "About",
+    "Features": "Features",
+    "Works": "Works",
+    "Career": "Career",
+    "HELP": "HELP",
+    "Customer support": "Customer support",
+    "Delivery details": "Delivery details",
+    "Terms & Conditions": "Terms & Conditions",
+    "Privacy Policy": "Privacy Policy",
+    "FAQ": "FAQ",
+    "Account": "Account",
+    "Manage Deliveries": "Manage Deliveries",
+    "Orders": "Orders",
+    "Payments": "Payments",
+    "RESOURCES": "RESOURCES",
+    "Free eBooks": "Free eBooks",
+    "Development Tutorial": "Development Tutorial",
+    "How to - Blog": "How to - Blog",
+    "Youtube Playlist": "Youtube Playlist",
+    "Copyright": "Shop.co © 2000-2025, All Rights Reserved"
+  }
+}

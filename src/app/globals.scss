@@ -1,0 +1,21 @@
+@use "/public/styles/null";
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  /* outline: solid 1px red; */
+}
+body {
+  min-width: 320px;
+  background-color: vars.$wh;
+  margin: 0rem auto;
+  overflow-x: hidden;
+}

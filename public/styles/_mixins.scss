@@ -1,0 +1,42 @@
+@use "sass:list";
+
+@mixin btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: fit-content;
+  border: none;
+  padding: 0rem;
+  cursor: pointer;
+}
+
+@mixin input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+@mixin flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-align-centered {
+  display: flex;
+  align-items: center;
+}
+
+@mixin toRem($property, $values...) {
+  $rem-values: ();
+  @each $value in $values {
+    $rem-values: list.append($rem-values, calc($value / 16) + rem);
+  }
+  #{$property}: #{$rem-values};
+}

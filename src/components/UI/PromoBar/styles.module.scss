@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  background-color: vars.$bl;
+  padding: 0.563rem 1.563rem;
+  @media (min-width: 48em) {
+    padding: 0.563rem 6.25rem;
+  }
+  @media (min-width: 120em) {
+    padding: 0.563rem 17.5rem;
+  }
+
+  &__title {
+    font-family: var(--font-SatoshiRegular);
+    @include toRem(font-size, 12);
+    color: vars.$wh;
+    @include toRem(margin-right, 4);
+    @media (min-width: 64em) {
+      @include toRem(font-size, 14);
+    }
+  }
+  &__sign-up-btn {
+    @include btn;
+    display: inline-flex;
+    border-bottom: 1px solid vars.$wh;
+    font-family: var(--font-SatoshiMedium);
+    @include toRem(font-size, 12);
+    color: vars.$wh;
+    @media (min-width: 64em) {
+      @include toRem(font-size, 14);
+    }
+  }
+  &__close-btn {
+    @include btn;
+    display: inline-flex;
+  }
+}
