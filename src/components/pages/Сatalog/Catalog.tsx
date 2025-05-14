@@ -27,9 +27,15 @@ export const Catalog = () => {
       try {
         const res = await fetch("/api/catalog/getProducts");
         const data = await res.json();
+
+        if (!res.ok || !Array.isArray(data)) {
+          throw new Error("Invalid response from API");
+        }
+
         setProducts(data);
       } catch (err) {
         console.error("Failed to fetch catalog products", err);
+        setProducts([]);
       }
     };
 
