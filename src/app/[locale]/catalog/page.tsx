@@ -1,3 +1,3 @@
-import Catalog from "@/components/pages/Catalog";
+import Catalog from "@/components/pages/Сatalog";
 
 export default Catalog;

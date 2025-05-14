@@ -29,6 +29,48 @@
     "Newsletter placeholder": "ingrese email",
     "Subscribe to Newsletter": "Suscribirse al boletín"
   },
+  "Products": {
+    "View All": "Ver Todo"
+  },
+  "FiltersMenu": {
+    "Filters": "Filtros",
+    "T-shirts": "Camisetas",
+    "Shorts": "Pantalones cortos",
+    "Shirts": "Camisas",
+    "Hoodie": "Sudadera con capucha",
+    "Jeans": "Vaqueros",
+    "Price": "Precio",
+    "Colors": "Colores",
+    "Size": "Talla",
+    "Dress Style": "Estilo de ropa",
+    "Casual": "Casual",
+    "Formal": "Formal",
+    "Party": "Fiesta",
+    "Gym": "Gimnasio",
+    "Apply Filter": "Aplicar filtro"
+  },
+  "Catalog": {
+    "Models in category": "Modelos de la categoría",
+    "No results message": "No hay productos para los filtros seleccionados"
+  },
+  "ProductPage": {
+    "Select Colors": "Seleccionar colores",
+    "Choose Size": "Elegir talla",
+    "Add to Cart": "Añadir al carrito"
+  },
+  "WishlistPage": {
+    "Wishlist": "Lista de deseos",
+    "Empty message": "Tu lista de deseos está vacía"
+  },
+  "Cart": {
+    "title": "Tu carrito",
+    "Empty message": "Su cesta está vacía",
+    "Order Summary": "Resumen del pedido",
+    "Total": "Total",
+    "Add promo code": "Agregar código promocional",
+    "Apply": "Aplicar",
+    "Go to Checkout": "Ir al pago"
+  },
   "Footer": {
     "footer desc": "Tenemos ropa que se adapta a tu estilo y que te enorgullece llevar. De mujeres a hombres.",
     "COMPANY": "EMPRESA",

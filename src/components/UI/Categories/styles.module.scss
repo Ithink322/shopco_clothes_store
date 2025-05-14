@@ -2,6 +2,10 @@
   padding: 2.5rem 1.5rem 1.688rem;
   background-color: vars.$gray;
   border-radius: 20px;
+  @include toRem(margin-top, 49);
+  @media (min-width: 64em) {
+    @include toRem(margin-top, 80);
+  }
   @media (min-width: 90em) {
     padding: 4.375rem 4rem 4.75rem;
   }

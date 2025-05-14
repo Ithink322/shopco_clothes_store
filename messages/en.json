@@ -29,6 +29,48 @@
     "Newsletter placeholder": "Enter your email address",
     "Subscribe to Newsletter": "Subscribe to Newsletter"
   },
+  "Products": {
+    "View All": "View All"
+  },
+  "FiltersMenu": {
+    "Filters": "Filters",
+    "T-shirts": "T-shirts",
+    "Shorts": "Shorts",
+    "Shirts": "Shirts",
+    "Hoodie": "Hoodie",
+    "Jeans": "Jeans",
+    "Price": "Price",
+    "Colors": "Colors",
+    "Size": "Size",
+    "Dress Style": "Dress Style",
+    "Casual": "Casual",
+    "Formal": "Formal",
+    "Party": "Party",
+    "Gym": "Gym",
+    "Apply Filter": "Apply Filter"
+  },
+  "Catalog": {
+    "Models in category": "Models in category",
+    "No results message": "No products for selected filters"
+  },
+  "ProductPage": {
+    "Select Colors": "Select Colors",
+    "Choose Size": "Choose Size",
+    "Add to Cart": "Add to Cart"
+  },
+  "WishlistPage": {
+    "Wishlist": "Wishlist",
+    "Empty message": "Your wishlist is empty"
+  },
+  "Cart": {
+    "title": "Your cart",
+    "Empty message": "Your cart is empty",
+    "Order Summary": "Order Summary",
+    "Total": "Total",
+    "Add promo code": "Add promo code",
+    "Apply": "Apply",
+    "Go to Checkout": "Go to Checkout"
+  },
   "Footer": {
     "footer desc": "We have clothes that suits your style and which you’re proud to wear. From women to men.",
     "COMPANY": "COMPANY",

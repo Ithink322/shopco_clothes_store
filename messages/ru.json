@@ -29,6 +29,48 @@
     "Newsletter placeholder": "Введите адрес электронной почты",
     "Subscribe to Newsletter": "Подписаться на рассылку"
   },
+  "Products": {
+    "View All": "Смотреть Все"
+  },
+  "FiltersMenu": {
+    "Filters": "Фильтры",
+    "T-shirts": "Футболки",
+    "Shorts": "Шорты",
+    "Shirts": "Рубашки",
+    "Hoodie": "Худи",
+    "Jeans": "Джинсы",
+    "Price": "Цена",
+    "Colors": "Цвета",
+    "Size": "Размер",
+    "Dress Style": "Стиль одежды",
+    "Casual": "Повседневный",
+    "Formal": "Официальный",
+    "Party": "Вечеринка",
+    "Gym": "Спортзал",
+    "Apply Filter": "Применить фильтр"
+  },
+  "Catalog": {
+    "Models in category": "Модели в категории",
+    "No results message": "Нет товаров по выбранным фильтрам"
+  },
+  "ProductPage": {
+    "Select Colors": "Выбрать Цвета",
+    "Choose Size": "Выбрать Размер",
+    "Add to Cart": "Добавить в Корзину"
+  },
+  "WishlistPage": {
+    "Wishlist": "Избранное",
+    "Empty message": "Ваш список желаний пуст"
+  },
+  "Cart": {
+    "title": "Ваша корзина",
+    "Empty message": "Ваша корзина пуста",
+    "Order Summary": "Сводка заказа",
+    "Total": "Итого",
+    "Add promo code": "Добавить промокод",
+    "Apply": "Применить",
+    "Go to Checkout": "Перейти к оформлению"
+  },
   "Footer": {
     "footer desc": "У нас есть одежда, которая подходит вашему стилю и которую вы с гордостью носите. Для женщин и мужчин.",
     "COMPANY": "КОМПАНИЯ",

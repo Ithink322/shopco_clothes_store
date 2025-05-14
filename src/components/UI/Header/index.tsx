@@ -9,6 +9,7 @@ import SearchIcon from "@/../../public/assets/icons/search.svg";
 import WishlistIcon from "@/../../public/assets/icons/wishlist.svg";
 import CartIcon from "@/../../public/assets/icons/cart.svg";
 import ProfileIcon from "@/../../public/assets/icons/profile.svg";
+import Link from "next/link";
 
 export default function Header() {
   const t = useTranslations();
@@ -31,8 +32,12 @@ export default function Header() {
       </div>
       <nav className={styles["header__container"]}>
         <ul className={styles["header__titles-list"]}>
-          <li>{t(`Home.Home`)}</li>
-          <li>{t(`Home.Shop`)}</li>
+          <li>
+            <Link href="/">{t(`Home.Home`)}</Link>
+          </li>
+          <li>
+            <Link href="/catalog">{t(`Home.Shop`)}</Link>
+          </li>
           <li>{t(`Home.On Sale`)}</li>
           <li>{t(`Home.New Arrivals`)}</li>
         </ul>
@@ -61,12 +66,16 @@ export default function Header() {
         <button className={styles["header__search-btn"]}>
           <Image src={SearchIcon} alt="search icon"></Image>
         </button>
-        <button className={styles["header__wishlist-btn"]}>
-          <Image src={WishlistIcon} alt="wishlist icon"></Image>
-        </button>
-        <button className={styles["header__cart-btn"]}>
-          <Image src={CartIcon} alt="cart icon"></Image>
-        </button>
+        <Link href="/wishlist">
+          <button className={styles["header__wishlist-btn"]}>
+            <Image src={WishlistIcon} alt="wishlist icon"></Image>
+          </button>
+        </Link>
+        <Link href="/cart">
+          <button className={styles["header__cart-btn"]}>
+            <Image src={CartIcon} alt="cart icon"></Image>
+          </button>
+        </Link>
         <button className={styles["header__profile-btn"]}>
           <Image src={ProfileIcon} alt="profile icon"></Image>
         </button>

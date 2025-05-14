@@ -1,7 +1,5 @@
 import styles from "./styles.module.scss";
 import { useTranslations, useLocale } from "next-intl";
-import dynamic from "next/dynamic";
-import Header from "@/components/UI/Header";
 import cn from "clsx";
 import Image from "next/image";
 import bannerHero from "@/../../public/assets/icons/banner-hero.webp";
@@ -10,11 +8,10 @@ import zaraLogo from "@/../../public/assets/icons/zara-logo.svg";
 import gucciLogo from "@/../../public/assets/icons/gucci-logo.svg";
 import pradaLogo from "@/../../public/assets/icons/prada-logo.svg";
 import calvinKleinLogo from "@/../../public/assets/icons/calvin-klein-logo.svg";
+import Products from "@/components/UI/Products";
+import { newArrivals } from "@/data/newArrivals";
+import { topSelling } from "@/data/topSelling";
 import Categories from "@/components/UI/Categories";
-import NewsLetter from "@/components/UI/NewsLetter";
-import Footer from "@/components/UI/Footer";
-
-const PromoBar = dynamic(() => import("@/components/UI/PromoBar"));
 
 export const Home = () => {
   const t = useTranslations();
@@ -22,8 +19,6 @@ export const Home = () => {
 
   return (
     <div>
-      <PromoBar></PromoBar>
-      <Header></Header>
       <div
         className={`${styles["banner"]} ${locale === "ru" ? "ru" : ""} ${
           locale === "es" ? "es" : ""
@@ -95,10 +90,13 @@ export const Home = () => {
         ></Image>
       </div>
       <div className={styles["container"]}>
+        <div>
+          <Products title="NEW ARRIVALS" products={newArrivals} />
+          <div className={styles["container__border"]}></div>
+          <Products title="TOP SELLING" products={topSelling} />
+        </div>
         <Categories></Categories>
-        <NewsLetter></NewsLetter>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

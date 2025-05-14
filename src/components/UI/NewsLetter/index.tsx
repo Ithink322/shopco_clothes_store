@@ -1,6 +1,5 @@
 import { useTranslations, useLocale } from "next-intl";
 import styles from "./styles.module.scss";
-import cn from "clsx";
 import Image from "next/image";
 import email from "@/../../public/assets/icons/email.svg";
 

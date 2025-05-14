@@ -19,3 +19,34 @@ body {
   margin: 0rem auto;
   overflow-x: hidden;
 }
+
+.noUi-target {
+  background: #f0f0f0 !important;
+  border: none !important;
+  box-shadow: none;
+  height: 6px !important;
+}
+.noUi-connect {
+  background: #000 !important;
+}
+.noUi-horizontal .noUi-handle {
+  width: 20px !important;
+  height: 20px !important;
+  background: vars.$bl;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+}
+.noUi-horizontal .noUi-handle:after,
+.noUi-horizontal .noUi-handle:before {
+  display: none;
+}
+.noUi-horizontal .noUi-tooltip {
+  font-family: var(--font-SatoshiMedium);
+  font-size: 0.875rem;
+  background: transparent;
+  border: none;
+  bottom: -35px !important; /* Adjust as needed */
+  top: auto !important;
+}

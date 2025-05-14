@@ -1,0 +1,68 @@
+.pagination {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 11.625rem;
+  margin-top: -12.4rem;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: -1.25rem;
+  }
+  @media (min-width: 90em) {
+    justify-content: space-between;
+    margin-left: 19.688rem;
+  }
+  &__prev-btn,
+  &__next-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.708rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: var(--font-SatoshiMedium);
+    @include toRem(font-size, 12);
+    @media (min-width: 90em) {
+      @include toRem(font-size, 14);
+    }
+  }
+}
+
+.page {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: var(--font-SatoshiMedium);
+  @include toRem(font-size, 12);
+  @media (min-width: 90em) {
+    @include toRem(font-size, 14);
+  }
+}
+
+.active {
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.06);
+  color: vars.$bl;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  font-family: var(--font-SatoshiMedium);
+  @include toRem(font-size, 12);
+  @media (min-width: 90em) {
+    @include toRem(font-size, 14);
+  }
+}
+
+.break {
+  padding: 6px 10px;
+  color: #999;
+}

@@ -1,0 +1,71 @@
+.container {
+  position: relative;
+  display: flex;
+  @include toRem(gap, 14);
+  &:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: -1rem;
+  }
+  &__remove-btn {
+    @include btn;
+    position: absolute;
+    right: 0.875rem;
+  }
+  &__hero {
+    height: 99px;
+    width: 99px;
+    border-radius: 8.66px;
+  }
+  &__details {
+    width: 100%;
+  }
+  &__title {
+    display: block;
+    font-family: var(--font-SatoshiBold);
+    @include toRem(font-size, 16);
+    width: 170px;
+    @media (min-width: 48em) {
+      width: max-content;
+    }
+  }
+  &__size,
+  &__color {
+    display: block;
+    font-family: var(--font-SatoshiRegular);
+    @include toRem(font-size, 12);
+    @include toRem(margin-top, 2);
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include toRem(margin-top, 11);
+  }
+  &__price {
+    font-family: var(--font-SatoshiBold);
+    @include toRem(font-size, 20);
+  }
+  &__counter {
+    padding: 0.469rem 0.844rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 62px;
+    background-color: vars.$gray;
+    width: max-content;
+  }
+  &__minus-btn {
+    @include btn;
+  }
+  &__counter-text {
+    font-family: var(--font-SatoshiMedium);
+    @include toRem(font-size, 14);
+  }
+  &__plus-btn {
+    @include btn;
+  }
+}

@@ -101,6 +101,7 @@
   }
   &__body {
     display: flex;
+    align-items: center;
     @include toRem(gap, 12);
     @media (min-width: 48em) {
       @include toRem(gap, 14);
